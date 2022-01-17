@@ -1,0 +1,46 @@
+#+TITLE: LearnOpenGL.com in Common Lisp
+#+AUTHOR: Hamza Shahid
+
+learnopengl.com is an amazing website which teaches a lot about OpenGL with good examples and
+encouraged thinking. *The Only Problem* is following it in Common Lisp.
+
+* Why?
+  When I started learning OpenGL, it was pretty easy to get many resources. With
+  Common Lisp though, I couldn't find any solid *up to date* resources! The only
+  real way was to start with [[https://github.com/cbaggers/cepl][CEPL]], A great way to build apps in OpenGL. The
+  thing was, I wanted to see proper OpenGL code and build an application my way
+  (partly for educational purposes). I tried to find the best of what I could
+  and compiled some resources into a GitHub Repo.
+
+* Get Started
+  Note: I have tried this on SBCL only, therefore I will pretend like you are using it.
+
+  Clone this repo into a directory which [[https://www.common-lisp.net/project/asdf/asdf.html#Configuring-ASDF-to-find-your-systems][ASDF recognizes]].
+  `$ git clone https://github.com/hamzashahid-blit/learn-opengl-in-cl/`
+
+  Go to the directory:
+  `$ cd learn-opengl-in-cl`
+
+  Make sure that you have [[https://www.quicklisp.org/beta/#installation][installed Quicklisp]].
+  Open SBCL, and run:
+  `* (ql:quickload :cl-learn-gl)`
+
+  Pick a file you want to run (in this case "transforms.lisp") and then:
+  `* (load (compile-file "src/ch-1/transforms.lisp"))`
+  `* (in-package :cl-learn-gl)`
+  `* (hello-transforms)`
+
+  There you go! You should see a window pop-up with the (almost) corresponding
+  lesson on the website. If you have any problems, don't hesitate to
+  open an issue and I will try my best to resolve it.
+
+* Closing Notes
+  *DISCLAIMER:* I am not at all good at Common Lisp and am still very much learning about
+  it. This is just as a helper of sorts to people who have goals that match with
+  mine.
+
+  Again, Feel free to point out any mistakes or things I could have done
+  better. I will try my best to implement.
+
+  This project is licensed under the BSD 2 Clause "Simplified" License.
+
