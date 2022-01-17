@@ -21,8 +21,8 @@ encouraged thinking. *The Only Problem* is following it in Common Lisp.
   #+end_src
 
   Go to the directory:
-  `$ cd learn-opengl-in-cl`
   #+begin_src bash
+    $ cd learn-opengl-in-cl
     $ git clone https://github.com/hamzashahid-blit/learn-opengl-in-cl/`
   #+end_src
 
