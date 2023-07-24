@@ -2,10 +2,10 @@
 #+AUTHOR: Hamza Shahid
 
 [[https://www.learnopengl.com/][learnopengl.com]] is an amazing website which teaches a lot about OpenGL with good examples and
-encouraged thinking. *The Only Problem* is following it in Common Lisp.
+encourages thinking. *The only problem* is following it in Common Lisp.
 
 * Why?
-  When I started learning OpenGL, it was pretty easy to get many resources. With
+  When I started learning OpenGL, it was pretty easy to get many resources. After I fell in love with
   Common Lisp though, I couldn't find any solid *up to date* resources! The only
   real way was to start with [[https://github.com/cbaggers/cepl][CEPL]], A great way to build apps in OpenGL. The
   thing was, I wanted to see proper OpenGL code and build an application my way
@@ -13,7 +13,7 @@ encouraged thinking. *The Only Problem* is following it in Common Lisp.
   and compiled some resources into a GitHub Repo.
 
 * Getting Started
-  Note: I have tried this on SBCL only, therefore I will pretend like you are using it.
+  Disclaimer: I have only tried this on SBCL.
 
   Clone this repo into a directory which [[https://www.common-lisp.net/project/asdf/asdf.html#Configuring-ASDF-to-find-your-systems][ASDF recognizes]].
   #+begin_src bash
@@ -45,11 +45,10 @@ encouraged thinking. *The Only Problem* is following it in Common Lisp.
 
 * Closing Notes
   *DISCLAIMER:* I am not at all good at Common Lisp and am still very much learning about
-  it. This is just as a helper of sorts to people who have goals that match with
+  it. This is just as a helper of sorts to people who have goals that match
   mine.
 
-  Again, Feel free to point out any mistakes or things I could have done
-  better. I will try my best to implement.
+  Again, Feel free to point out any mistakes or things I could have done better. I will try my best to implement those changes.
 
   This project is licensed under the *BSD 2 Clause "Simplified" License*.
 
