@@ -17,13 +17,12 @@ encourages thinking. *The only problem* is following it in Common Lisp.
 
   Clone this repo into a directory which [[https://www.common-lisp.net/project/asdf/asdf.html#Configuring-ASDF-to-find-your-systems][ASDF recognizes]].
   #+begin_src bash
-    $ git clone https://github.com/hamzashahid-blit/learn-opengl-in-cl/`
+    $ git clone https://github.com/hamzashahid-blit/learn-opengl-in-cl/
   #+end_src
 
   Go to the directory:
   #+begin_src bash
     $ cd learn-opengl-in-cl
-    $ git clone https://github.com/hamzashahid-blit/learn-opengl-in-cl/`
   #+end_src
 
   Make sure that you have [[https://www.quicklisp.org/beta/#installation][installed Quicklisp]].
